@@ -1,0 +1,146 @@
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+}
+
+.top-bar{
+    background-image: linear-gradient(to top left ,#b10c72,#f50411);
+    
+}
+
+.contact-details li{
+    text-decoration:none;
+    list-style:none;
+    float:left;
+    margin-bottom: 6px;
+    
+}
+.contact-details a{
+    color:#fff;
+    text-decoration: none;
+    padding:8px;
+    font-size:18px;
+
+}
+
+.social-list li{
+    
+    list-style: none;
+    padding-top:8px;
+    float:right; 
+}
+
+.social-list li a{
+    color:#fff;
+    text-decoration:none;
+    display:flex;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 10px,0;
+}
+@media screen and (max-width: 480px) {
+    .social-list{
+    float: right;
+
+    }
+    .social-tag{
+        top:11px;
+        position: relative;
+        right:34px;
+    }
+    .location{
+        margin-right:0;
+        margin-bottom:-36px;
+        font-size: 6px;
+        position: relative;
+        top:-36px;
+    }
+  }
+li {
+font-size:14px;
+font-weight:500;
+   }
+
+
+.carousel-item {
+    height: 450px;
+  }
+  .carousel-image-1 {
+    background: url('img/photo.png');
+   background-size: 100% 100%;
+   width: 100%;
+  }
+  
+  .carousel-image-2 {
+    background: url('img/photo.png');
+    background-size: 100% 100%;
+    width:100%;
+  }
+  
+  .carousel-image-3 {
+    background: url('img/t3.jpg');
+    background-size: 100% 100%;
+   width:100%;
+
+  }
+ .ss ul{
+     padding:0;
+     
+     margin: auto;
+ }
+ .ss li{
+     list-style-type:none ;
+     padding:10px 20px;
+     
+ }
+ .ss a{
+     text-decoration: none;
+     font-size: 20px;
+     color:rgb(20, 15, 15);
+     position: relative;
+     font-family: 'Kurale', serif;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ .ss ul li a:before{
+     content: "";
+     width:0;
+     height: 5px;
+     background-color:#b10c72;
+     position: absolute;
+     top:120%;
+     left:0;
+     transition: all 0.5s;
+    
+ }
+ .ss ul li a:after{
+    content: "";
+    width:0;
+    height: 5px;
+    background-color:#f50411;
+    position: absolute;
+    top:120%;
+    right:0;
+    transition: all 0.5s;
+   
+}
+.ss ul li a:hover:before{
+    width:50%;
+    transform: translateX(100%);
+
+}
+.ss ul li a:hover:after{
+    width:50%;
+   transform: translateX(-100%);
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0 solid;
+    border-right: 0 solid transparent;
+    border-bottom: 0;
+    border-left: 0 solid transparent;
+}
+
