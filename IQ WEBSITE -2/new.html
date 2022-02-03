@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-9">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="jquery.flipster.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="new.css">
+    <title>Document</title>
+    <style>
+    
+
+/** For mobile devices **/
+@media only screen and (max-width:760px) {
+ .custom-shape-divider-top-1630622741 svg {
+   width: calc(102% + 1.3px);
+   height: 218px;
+ }
+}
+
+@media only screen and (max-width:760px) {
+ .next,
+ .prev {
+   transform: scale(1);
+   opacity: 1;
+ }
+
+ .item {
+   display: block !important;
+ }
+}
+
+
+@media only screen and (max-width:760px){
+
+iframe{
+ width: 100%;
+ height: 326px;
+}
+
+#part6 .carousel-cell {
+ margin-right: 7em !important;
+ width: 44%;
+ height: 340px;
+}
+   #part3 .row{
+       width: 74%;
+     }
+    
+     .time-img {
+   width: 10rem;
+   height: 10rem;
+}
+#part3 .content h2 {
+   font-size: 2.1rem;
+}
+     .special{
+       height: 18em;
+     }
+     .custom-shape-divider-top-1630622741 svg {
+       width: calc(258% + 20.3px)!important;
+   height: 484px!important;
+}
+.geo-shapes img{
+ animation: geo 12s linear infinite;
+}
+@keyframes geo {
+ 0% {
+   transform: translateY(0);
+   opacity: 0;
+ }
+ 50% {
+   opacity: 1;
+ }
+ 70% {
+   opacity: 1;
+ }
+ 100% {
+   transform: translateY(300vh);
+   opacity: 1;
+ }
+}     
+     .carousel-control-prev{
+       display: none;
+     }
+     .pre:hover{
+       transform: translateX(15px);
+     }
+     .nex:hover{
+       transform: translateX(-15px);
+     }
+     .carousel-control-next{
+      display: none;
+     }
+     .carousel-indicators{
+       z-index: 1;
+     }
+     }
+    
+     
+   </style>
+</head>
+<body>
+  
+  <div class="container-fluid top-bar">
+    <div class="row ">
+          <div class="col-lg-8">
+            <div class="contact-details">
+            <ul>
+              <li>
+                <a class="social-tag d-sm-block" href="https://www.youtube.com/channel/UCGCB1M7_8or7SO8jBSA9n6w/featured"><i class="fab  fa-youtube"></i></a>
+              </li>
+              <li>
+                <a class="social-tag d-sm-block" href="https://www.instagram.com/iqclasses/?hl=en"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a class="social-tag d-lg-block" href="https://www.facebook.com/people/IQ-Classes/100057281447028/?__xts__[0]=68.ARDXv6U04V8VO0mYLanwwKDImK7gJWNGpY7GngoWW3cvhwlVpXnv86O6BZ6WQG46GxO02UnWShK3pn9N2wyp
+                29TDgX3psXLMkJQCG5jWxFHgHRpIOfigdZSEOAvMZtxKZX8iDntlwfLyU6Y4leadYswG_LLUpJ9_BEC0lPmVQ
+                8pBnAFIzhaSbmsXdMHZ-2b_FFqRipl7EgcQ_h1FrR-2WUnKCDxV492yAMkoQXZhNXFduMS0gvOM6-2LMENmn48EHT
+                5nIBwzY3bMCHke2QF0phXNwQEnwhM81vfVwn6dlZxZMtUdzVRVzBYTRbQsfDLQPClwM-8EHbkPpKVkKlCtf2dx5dRf">
+                <i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="d-sm-block d-none" href="https://iqclasses.in/CLASS-10-PERCENTAGE-CALCULATOR.aspx">10th Calculator</a>
+              </li>
+              <li>
+                <a class="d-sm-block d-none"href="https://iqclasses.in/CLASS-12-PERCENTAGE-CALCULATOR.aspx">12th Calculator</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+          <div class="col-lg-4 ">
+            <ul class="social-list">
+              <li>
+                  <a class="location"href="https://www.google.com/maps/dir/26.8500992,81.002496/iq+classes/@26.8513615,80.9651166,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x399bfd30a72dfa5b:0x35c4b4954027142b!2m2!1d80.9631824!2d26.8582189"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Parag Narain Road, Lucknow</a>
+              </li>
+               <li>
+                <a class="location1"href="tel:7905529739">&nbsp;&nbsp;&nbsp;<i class="fas fa-phone"></i> +91-7905529739,</a>
+            </li>
+            <li>
+              <a class="location2"href="tel:9839520987"></i> &nbsp;+91-9839520987</a>
+           </li>          
+          </ul>          
+      </div>
+    </div>
+  </div>
+
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo.png"  ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="ss">
+        <ul class="navbar-nav float-left">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+            data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-caret-down"></i>
+              Subjects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="enrol-button">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Click Here</a>
+       </div>
+      </div>
+    </div>
+  </nav>
+ <!-- modal -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title text-danger"exampleModalLabel">Register Now </h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+         <div class="modal-body">
+            <!-- Forname -->
+            <div class="input-group">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-user icon"></i>UserName</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+            </div>
+    
+            <!-- for telephone -->
+            <div class="input-group">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-phone-alt icon"></i>Phone</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+            </div>
+    
+            <!-- for email -->
+            <div class="input-group">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-envelope icon"></i>Email</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+            </div>
+           
+            <!-- class -->
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+              <option selected>Class Studying</option>
+              <option value="1">Class 9th</option>
+              <option value="2">Class 10th</option>
+              <option value="3">Class 11th</option>
+              <option value="3">Class 12th</option>
+            </select>
+
+            <!-- board -->
+            <label for="exampleInputtext" class="form-label">Select Board</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+              ICSE BOARD
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                CBSE BOARD
+              </label>
+            </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+      
+      <!-- carousel -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">        
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-image-1">
+            
+          
+          </div>
+          <div class="carousel-item carousel-image-2">
+            
+          </div>
+          <div class="carousel-item carousel-image-3">
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- DIVS -->
+      <div class="row text-align-center">
+        <div class="col-sm-4">
+          <div class="card card-notice" style="width: 22rem;">
+            <img src="img/notice.jpg" class="card-img-top"style="height:12rem;" alt="...">
+              <p style="font-family: 'Raleway';color:red;font-weight:bold;">IMPORTANT LINKS</p>
+              <ul>
+                <li> <a href="">Specimen Paper Solution </a></li>
+                <li><a href="">Previous Year Board Solutions</a></li>
+                <li><a href="">Updated Syllabus</a></li>
+                <li><a href="">Percentage Calculator</a></li>
+              </ul>
+          </div>
+          </div>
+        <div class="col-sm-8">
+      <div class="d-md-flex ">
+      <div class="card-main" >
+        <div class="card-content">
+         <a class="card-lk" href="#">ICSE BOARD</a>
+          <a class="card-lk1" href="#">CBSE BOARD</a>      
+        </div>
+        <img class="card-imag"src="img/9.png" >
+      </div>
+    
+      <div class="card-main" style="left:97px;">
+        <div class="card-content">
+          <a class="card-lk" href="#">ICSE BOARD</a>
+           <a class="card-lk1" href="#">CBSE BOARD</a>       
+         </div>
+        <img class="card-imag"src="img/10.png" >
+      </div>
+        </div>
+
+        <div class="d-md-flex ">
+          <div class="card-main " style="margin-top: 40px;">
+            <div class="card-content">
+             <a class="card-lk" href="#">ISC BOARD</a>
+              <a class="card-lk1" href="#">CBSE BOARD</a>
+                     
+            </div>
+            <img class="card-imag"src="img/11.png" >
+          </div>
+        
+          <div class="card-main" style="left:97px;margin-top: 40px;background-color: aqua;">
+            <div class="card-content">
+              <a class="card-lk" href="#">ISC BOARD</a>
+               <a class="card-lk1" href="#">CBSE BOARD</a>    
+             </div>
+            <img class="card-imag"src="img/12.png" >
+          </div>
+            </div>
+      </div>
+      </div>
+
+    <!-- speciality -->
+
+    <section id="part3">
+      <div class="custom-shape-divider-top-1630622741">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="geo-shapes">
+      <img src="img/triangle-xxl.png" alt="">
+      <img src="img/imgbin_red-circle-font-png.png" alt="">
+      <img src="img/triangle-xxl.png" alt="">
+      <img src="img/imgbin_red-circle-font-png.png" alt="">    
+        <img src="img/triangle-xxl.png" alt="">
+        <img src="img/imgbin_red-circle-font-png.png" alt="">   
+       </div>
+       <h1 class="aos-init my-3 text-align-center" style="font-family: 'Raleway';
+       font-weight: 900;color:red;position:relative;bottom:115px;"data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="top-center">Reason to Choose Us</h1>
+     
+     
+      <div class="row" style="justify-content:space-between;position: relative;bottom:100px;">
+          
+        <div class="col-lg-3 special"
+        style="background-image: url('img/fac.png');background-size:contain;background-repeat: no-repeat;" 
+        data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" >
+            <h3 style="margin-top: 227px;">Highly Qualified & Experienced Faculty</h3>
+          <div class="content">
+            <img  src="img/55.png" style="margin:auto;"alt="">
+            <ul>
+              <li>Highly skilled and experrienced teachers work with us</li>
+              <li>They are specialised in their respective fields</li>
+              <li>They very well know how to shape your child's future</li>
+            </ul>
+          </div>
+        </div>
+
+          <div class="col-lg-3 special"
+          style="background-image: url('img/online.png');background-size:contain;background-repeat: no-repeat;"
+           data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-duration="3000">
+            <h3 style="margin-top: 227px;">Online Test Portal for Students</h3>
+            <div class="content">
+              <img  src="img/56.png" style="margin:auto;"alt="">
+              <ul>
+                <li>Frequent Test are taken on panel</li>
+                <li>Assignments are given on panel</li>
+                <li>Different levels of tests are given</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 special" style="background-image: url('img/on-learn.png');background-repeat: no-repeat; background-size:contain;" 
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" >
+            <h3 style="margin-top: 227px;"> Online / Offline Classes</h3>
+            <div class="content">
+              <img  src="img/59.png" style="margin:auto;"alt="">
+              <ul>
+                <li>Best Interface  for students to understand easily</li>
+                <li>Small Online batches</li>
+                <li>Personel attention to students</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 special" style="background-image: url('img/personality (2).png');background-size:contain;background-repeat: no-repeat;" 
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" >
+            <h3 style="margin-top: 227px;">Free Career Counselling Sessions</h3>
+                <div class="content">
+                  <img  src="img/60.png"  style="margin:auto;"alt="">
+                  <ul>
+                    <li>Trained Career Counsellers helps to guide student's career path</li>
+                    <li>Personality Development Sessions</li>
+                  </ul>
+                </div>
+              </div>
+
+          <div class="col-lg-3 special"  style="background-image: url('img/comp.png');background-size:contain;background-repeat: no-repeat;" 
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-duration="3000">
+            <h3 style="margin-top: 227px;">Well Established Computer Labs</h3>
+                <div class="content">
+                  <img  src="img/58.png" style="margin:auto;"alt="">
+                  <ul>
+                    <li>Computer classes on JAVA/PYTHON were conducted</li>
+                    <li>Practical Classes are also conducted </li>
+                    <li>Development and Designing Classes are conducted</li>
+                  </ul>
+                </div>
+              </div>
+
+          <div class="col-lg-3 special" style="background-image: url('img/meeting.png');background-size:contain;background-repeat: no-repeat;" 
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <h3 style="margin-top: 227px;">Parent-Teacher Meeting</h3>
+                <div class="content">
+                  <img  src="img/57.png" style="margin:auto;"alt="">
+                  <ul>
+                    <li>Regular Reports are given to parents</li>
+                    <li>Monthly Meetings are conducted </li>
+                    <li>Monthly score cards are generated</li>
+                  </ul>
+                </div>
+              </div>
+      </div>
+
+    </section>
+  
+      <!-- you tube -->
+  
+      <h1 class="aos-init my-3" style="font-family: 'Raleway';text-align:center;font-weight: bold;
+      font-size: 900;color:red;position:relative;bottom:-36px;"data-aos="zoom-in" 
+       data-aos-duration="1000" data-aos-anchor-placement="top-center">@ You Tube</h1>
+      <section id="part6" data-aos="fade-down" data-aos-duration="3000">
+        <div class="carousel" data-flickity='{ "cellAlign": "center", "contain": true ,"pauseAutoPlayOnHover": true,"autoPlay": 2000,"wrapAround": true,"freeScroll": true,"freeScrollFriction": 0.03}' style="margin-top: 5em;" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="100">
+          <div class="carousel-cell">
+            <iframe width="600" height="340"
+            src="https://www.youtube.com/embed/3gs7i1jnSXM?controls=0">
+            </iframe>
+          </div>
+          <div class="carousel-cell">
+          <iframe width="656" height="340"
+          src="https://www.youtube.com/embed/1SJDamvEDuE?controls=0">
+          </iframe>
+          </div>
+          <div class="carousel-cell">
+            <iframe width="656" height="340"
+            src="https://www.youtube.com/embed/4IBSFYHhizc?controls=0">
+            </iframe>
+                   </div>
+          <div class="carousel-cell">
+            <iframe width="656" height="340"
+            src="https://www.youtube.com/embed/vZpN4k-eQgQ?controls=0">
+            </iframe>
+          </div>
+          <div class="carousel-cell">
+            <iframe width="656" height="340"
+            src="https://www.youtube.com/embed/-bbmPe-3cwA?controls=0">
+            </iframe>
+          </div>
+          <div class="carousel-cell">
+            <iframe width="656" height="340"
+            src="https://www.youtube.com/embed/YxZY6NpnUzk?controls=0">
+            </iframe>
+          </div>
+          <div class="carousel-cell">
+            <iframe width="656" height="340"
+            src="https://www.youtube.com/embed/03ad6qBKZ0Y?controls=0">
+            </iframe>
+          </div>
+      </div>
+      </section>
+       
+      <!-- gallery -->
+      <h1 class="aos-init my-3" style="font-family: 'Raleway';text-align:center;font-weight: bold;
+      font-size: 900;color:red;position:relative;bottom:-36px;"data-aos="zoom-in" 
+       data-aos-duration="1000" data-aos-anchor-placement="top-center">Visit our Gallery</h1>
+      <section id="gallery-base"  data-aos="fade-down" data-aos-offset="100" data-aos-easing="linear" data-aos-duration="3000">
+        <div class="gall-carousel">
+            <ul>
+                <li><img src="img/1010.jpeg" alt=""></li>
+                <li><img src="img/1011.jpeg" alt=""></li>
+                <li><img src="img/1012.jpeg" alt=""></li>
+                <li><img src="img/1013.jpeg" alt=""></li>
+                <li><img src="img/1014.jpeg" alt=""></li>
+                <li><img src="img/1015.jpeg" alt=""></li>
+                <li><img src="img/1020.jpeg" alt=""></li>
+                <li><img src="img/1016.jpeg" alt=""></li>
+                <li><img src="img/t3.jpg" alt=""></li>
+                <li><img src="img/t2.jpg" alt=""></li>
+            </ul>
+        </div>
+      </section>
+
+       <!-- testimonial -->
+
+       <section id="base"  data-aos="fade-down" data-aos-offset="100" data-aos-easing="linear" data-aos-duration="3000">
+        <h1 class="aos-init my-3 text-align-center" style="font-family: 'Raleway';
+       font-weight: 900;color:red;position:relative;bottom:43px;"data-aos="zoom-in"
+        data-aos-duration="1000" data-aos-anchor-placement="top-center">What our students say?</h1>
+        <div class="view-box">
+            <div id="testimonial" data-aos="zoom-in" data-aos-offset="100" data-aos-easing="linear" data-aos-duration="3000" >
+                <div class="user">
+                    <img src="img/student1.jpeg" alt="">
+                    <p>My experience was great in this institute.Teachers are very friendly
+                        ,they help in solving our doubts and clearing ours concepts.
+                    </p>
+                    <h3>Sameer Saxena</h3>
+                </div>
+
+                <div class="user space">
+                    <img src="img/student2.jpeg" alt="">
+                    <p>My experience was great in this institute.Teachers are very friendly
+                        ,they help in solving our doubts and clearing ours concepts.
+                    </p>
+                    <h3>Anshika</h3>
+                </div>
+
+                <div class="user">
+                    <img src="img/student1.jpeg" alt="">
+                    <p>My experience was great in this institute.Teachers are very friendly
+                        ,they help in solving our doubts and clearing ours concepts</p>
+                    <h3>Aditya</h3>
+                </div>
+            </div>
+
+            <div class="control">
+                <span id="control1"></span>
+                <span id="control2" class="active1"></span>
+                <span id="control3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="part7">
+      <div class="row" style="justify-content: space-around;">
+    <div class="col-lg-5 services">
+      <h2 style="text-align: center;">Reach Us</h2>
+      <iframe class="frame"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.425360007304!2d80.96099371421445!3d26.858223668901264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd30a72dfa5b%3A0x35c4b4954027142b!2sIQ%20CLASSES!5e0!3m2!1sen!2sin!4v1643434358193!5m2!1sen!2sin" 
+      width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+      
+    <div class="col-lg-4 services">
+      <h2>SERVICES</h2>
+      <ul>
+        <li>ACADEMIC</li>
+        <li>ON-LINE PREPARATION</li>
+        <li>FOUNDATION & CRASH COURSES</li>
+      </ul>
+      <div class="social">
+        <i class="fab fa-facebook-f text-align-center"></i>
+        <i class="fab fa-instagram"></i><i class="fab fa-twitter"></i>
+        <i class="far fa-envelope"></i>
+      </div>
+    </div>
+    <div class="col-lg-3 visit">
+      <h2>CONTACT</h2>
+      <div class="sub-visit">
+        <address>
+          B-54, Krishna Bhawan, Parag Narain Road,
+        Near Butler Palace Colony Lucknow
+        </address>
+      </div>
+      <div class="sub-visit">
+    <address>  
+    Contact:+ 91790552 9739
+    </address>
+      </div>
+      <div class="sub-visit">
+        <address>Email:info@iqclasses.in</address>
+      </div>
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  For Enqueries
+</button>
+
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Contact <span style="font-size:2.75rem;color:#e31837;">Us</span></h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+       <div class="modal-body">
+          <!-- Forname -->
+          <div class="input-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-user icon"></i>UserName</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+  
+          <!-- for telephone -->
+          <div class="input-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-phone-alt icon"></i>Phone</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+  
+          <!-- for email -->
+          <div class="input-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-envelope icon"></i>Email</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+    
+    
+
+
+    <script>
+     
+     var testimonial = document.getElementById('testimonial');
+     var control1 = document.getElementById('control1');
+     var control2 = document.getElementById('control2');
+     var control3 = document.getElementById('control3');
+
+     control1.onclick=function(){
+         testimonial.style.transform = "translateX(870px)";
+         control1.classList.add("active1");
+         control2.classList.remove("active1");
+         control3.classList.remove("active1");
+
+     }
+      
+     control2.onclick=function(){
+         testimonial.style.transform = "translateX(0px)";
+         control1.classList.remove("active1");
+         control2.classList.add("active1");
+         control3.classList.remove("active1");
+
+     }
+
+     control3.onclick=function(){
+         testimonial.style.transform = "translateX(-870px)";
+         control1.classList.remove("active1");
+         control2.classList.remove("active1");
+         control3.classList.add("active1");
+
+     }
+    </script>
+       
+      
+       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         
+      <script>
+          AOS.init({
+        // Global settings:
+         delay: 0, // values from 0 to 3000, with step 50ms
+      
+      });
+        </script>
+
+<!-- gallery -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
+<script src="jquery.flipster.min.js"></script>
+<script>
+    $('.gall-carousel').flipster({
+        style:'carousel',
+        spacing:-0.3,
+    }
+  );
+</script>
+
+
+<body>
+</html>
