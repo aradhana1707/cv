@@ -9,17 +9,7 @@ html,body{
     background-image: linear-gradient(to top left ,#b10c72,#f50411);
     
 }
-.location{
-    margin-right: 70px;
-}
-.location1{
-    margin-top:20px;
-    margin-right:-120px;
-}
-.location2{
-    margin-top:-25px;
-    margin-right: 25px;
-}
+
 
 .contact-details li{
     text-decoration:none;
@@ -40,7 +30,7 @@ html,body{
     
     list-style: none;
     padding-top:8px;
-    float:right; 
+    
 }
 
 .social-list li a{
@@ -56,6 +46,7 @@ html,body{
 li {
 font-weight:500;
    }
+  
 
 @media screen and (max-width: 768px) {
     .social-tag{
@@ -63,19 +54,21 @@ font-weight:500;
         position: relative;
         right:34px;
     }
-    .location{
-        font-size: 6px;
-        margin-top:-26px;
-        margin-right: 8px;
-    }
-    .location1{
-        margin-top:-11px;
-        margin-right: 92px;
+    
+   
+    .social-list li a{
+        color:#fff;
+        text-decoration:none;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1;
+        padding: 10px,0;
     }
     .location2{
-        margin-top:-28px;
-        margin-right: 10px;
-    }
+        position: relative;
+    left: 3vh;
+    top: 0vh;
+}
     .enrol-button{
         margin:20px!important;
     }
@@ -88,40 +81,41 @@ font-weight:500;
     height: 450px;
   }
   @media screen and (max-width: 768px){
-      .carousel-item{
-          height:420px;
-      }
+      
       .carousel-image-1{
           background: url('img/phone-online.png')!important;
-          
-  
-      }
+          width:100%;
+          }
       .carousel-image-2{
         background: url('img/phone-online.png')!important;
-     
 
     }
     .carousel-image-3{
         background: url('img/phone-online.png')!important;
+    }
+    .carousel-inner{
+        height: 420px;
+        width:100%;
        
-
     }
   }
+  
+
   .carousel-image-1 {
-    background: url('img/photo.png');
+    background: url('img/PHOTO.png');
    background-size: 100% 100%;
    width: 100%;
   }
   
   .carousel-image-2 {
-    background: url('img/t3.png');
+    background: url('img/T3.png');
     background-size: 100% 100%;
     width:100%;
     border:1px solid red;
   }
   
   .carousel-image-3 {
-    background: url('img/t5.png');
+    background: url('img/T5.png');
     background-size: 100% 100%;
    width:100%;
 
@@ -241,14 +235,55 @@ font-weight:500;
     border:2px solid white;
     border-radius: 10px;
 }
+.card-main1{
+    position: relative;
+    display: flex;
+    left:97px;
+    width:360px;
+    height: 200px;
+    background:linear-gradient(-45deg,#bd250a,#147ce7);
+    z-index:1;
+    bottom:23px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.card-main2{
+    position: relative;
+    display: flex;
+    left:97px;
+    width:360px;
+    height: 200px;
+    background:linear-gradient(-45deg,#bd250a,#147ce7);
+    z-index:1;
+    bottom:23px;
+    border:2px solid white;
+    border-radius: 10px;
+}
 @media screen and (max-width: 768px){
     .card-notice{ left:0px!important;
         bottom:0px !important;
     width: 100% !important;}
-    .card-main{
-        left: 0px !important;
-        margin-top:0px !important;
+    .card-main1{
+        left:0px;
+        bottom:0px !important;
+        
+        width:72%;
+        margin:0 auto 0;
     }
+    .card-main{
+        left:0px;
+        width:72%;
+        margin:0 auto 0;
+      
+        
+    }
+    .card-main2{
+        left:0px;
+        width:72%;
+        margin:0 auto 0;       
+        
+    }
+    
 }
 .card-notice
 {   background-color: rgb(101, 101, 192);
@@ -490,9 +525,10 @@ overflow: hidden;
     -webkit-box-reflect: below 20px linear-gradient(rgba(255, 255 ,255 ,0.1), rgba(255, 255 ,255 ,0.3));
 }
 @media screen and (max-width: 768px){
-    #gallery-base{height:55vh; }
+    #gallery-base{height:47vh; }
     #gallery-base .gall-carousel{
-        width:130px;
+        width:190px;
+        margin:39px auto 0;
     }
 }
 
@@ -525,6 +561,7 @@ overflow: hidden;
     .social{
         
         margin-top: 3em!important;
+        margin: 10px -91px 14px;
     }
     .sub-visit{
 
